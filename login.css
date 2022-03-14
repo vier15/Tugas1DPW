@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.login-form {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background-color:#ffffff;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    height: 400px;
+    width: auto;
+    margin: auto;
+    border-radius: 4px;
+    padding: 50px;
+}
+
+.login-form h1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.login-form span {
+    color: #0097bd;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.login-form a:hover {
+    font-weight: 900;
+}
+
+.form input {
+    color: #ffffff;
+    width: 500px;
+    height: 35px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.submit-button {
+    color: #ffffff;
+    background-color: #0097bd;
+}
+
+.submit-button:hover {
+    opacity: 80%;
+}

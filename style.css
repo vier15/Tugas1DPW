@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Header */
+header{
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 70px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    color: rgb(36, 36, 36);
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.nav-button :hover {
+    color: #0097bd;
+    font-weight: 900;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: large;
+}
+
+#logo span {
+    color: #0097bd;
+}
+
+#logo a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.account li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding-right: 20px;
+    color: rgb(36, 36, 36);
+}
+
+.account :hover {
+    color: #0097bd;
+    font-weight: 900;
+}
+
+#sign-up span {
+    color: #0097bd;
+    font-weight: 400;
+}
+
+#sign-up :hover {
+    font-weight: 900;
+}
+
+.header-container {
+    background-image: url(./Assets/sakura-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    justify-content: center;
+    height: 300px;
+}
+
+.header-title {
+    color:rgb(36, 36, 36);
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header-title span {
+    color: #0097bd;
+    font-weight: 900;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-rows: 500px 500px 600px;
+}
+
+.content-1 {
+    background-color: #ffffff;
+}
+
+.content-1-container {
+    margin: 70px 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+
+.content-1-section-1 {
+    height: 300px;
+    width: 500px;
+    font-size: large;
+    color: rgb(36, 36, 36);
+}
+
+.content-1-section-1 h2 {
+    color: #0097bd;
+}
+
+.content-1-section-2 {
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-1-section-2 img {
+    height: 100%;
+    width: auto;
+    
+}
+
+.content-2 {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    align-items: center;
+    background-color: #0097bd;
+}
+
+.content-2-title {
+    text-align: center;
+    font-size: large;
+    color: #ffffff;
+}
+
+.content-2-title span {
+    color: #ffffff;
+}
+
+.content-2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.content-2-card {
+    height: 300px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.c2-icon  {
+    font-size: x-large;
+    font-weight: 500;
+    color: #0097bd;
+}
+
+.c2-text {
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(36, 36, 36);
+}
+
+.content-3 {
+    background-image: url(Assets/tokyo-tower-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-3-title h1 {
+    color: rgb(36, 36, 36);
+    text-shadow: 1px 1px rgb(36, 36, 36);
+    margin-bottom: 20px;
+}
+
+.content-3-button {
+    height: 70px;
+    width: 190px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #0097bd;
+}
+
+.content-3-button a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.content-3-button a:hover {
+    font-weight: 900;
+}
+
+/*___Footer______*/
+
+footer {
+    height: 300px;
+    background-color: #0097bd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.footer-logo {
+    float: left;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.socmed {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.socmed h2 {
+    float: right;
+}
+
+.socmed ul {
+    float: right;
+    list-style: none;
+}
+
+.socmed ul li {
+    margin: 5px;
+    font-size: large;
+}
+
+.socmed ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.socmed ul li a:hover {
+    font-weight: 900;
+}
